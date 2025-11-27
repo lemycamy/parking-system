@@ -1,0 +1,30 @@
+.btn, .dashboard-btn, .staff-dashboard-btn, .submit-button {
+  width: 150px;
+  padding: 12px 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  background-color: var(--btn-bg);
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.btn:hover, .dashboard-btn:hover, .staff-dashboard-btn:hover, .submit-button:hover {
+  background-color: var(--btn-hover);
+  transform: scale(1.05);
+}
+
+.logout-btn, .staff-logout-btn {
+  background-color: var(--btn-logout);
+}
+
+.logout-btn:hover, .staff-logout-btn:hover {
+  background-color: var(--btn-logout-hover);
+}

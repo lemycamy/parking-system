@@ -1,0 +1,9 @@
+.message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.success-message {
+  color: #10b981;
+}
